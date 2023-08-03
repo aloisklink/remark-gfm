@@ -28,6 +28,9 @@
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
+  "engines": {
+    "node": "^16.18 || ^18 || >=20"
+  },
   "sideEffects": false,
   "type": "module",
   "main": "index.js",

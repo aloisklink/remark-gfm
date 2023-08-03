@@ -78,7 +78,7 @@ GitHub does this in a few places (comments, issues, PRs, and releases).
 ## Install
 
 This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c).
-In Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:
+In Node.js (version 16.18+, 18+, or 20+), install with [npm][]:
 
 ```sh
 npm install remark-gfm
@@ -335,11 +335,11 @@ options.
 
 Projects maintained by the unified collective are compatible with all maintained
 versions of Node.js.
-As of now, that is Node.js 12.20+, 14.14+, and 16.0+.
+As of now, that is Node.js 16.18+, 18+, and 20+.
 Our projects sometimes work with older versions, but this is not guaranteed.
 
 This plugin works with `remark-parse` version 10+ (`remark` version 14+).
-The previous version (v2) worked with `remark-parse` version 9 (`remark`
+A previous version (v2) worked with `remark-parse` version 9 (`remark`
 version 13).
 Earlier versions of `remark-parse` and `remark` had a `gfm` option that enabled
 this functionality, which defaulted to true.
